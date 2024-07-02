@@ -138,7 +138,7 @@ const TaskList = () => {
         <div className="w-[100%] h-[350px] overflow-auto mt-5">{list}</div>
       )}
       {isEdit && (
-        <div className="w-[300px] h-[250px] bg-teal-700 rounded-lg absolute top-60 left-[40%] z-50">
+        <div className="w-[300px] h-[250px] bg-teal-700 rounded-lg absolute top-60 md:left-[40%] left-[10%] z-50">
           <div className="flex justify-end w-[90%] m-auto pl-1 pr-1 pt-2 pb-2 h-auto">
             <span
               className="text-5xl text-gray-700 cursor-pointer hover:text-red-500"
